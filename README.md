@@ -54,6 +54,33 @@ Lets analyze the histograms of the important features
 <img src = images/type-hist.png width = 100%/>
 </p>
 
+#### Observation
+- There is more sales on newer cars. This may be due to higher inventory of such cars
+- There are no clear patterns for regions. Certain regions have more sale than others.
+- Ford, Toyota and chevrolet are popular manufacturers
+- Gas cars are more popular than other types
+- Lower odometer cars are more preferred
+- Automatic transmission seems to be the preferred choice
+- Sedans, SUV, followed by pickups have the highest sale over other types.
 
-<img src = images/date-price-type-joint.png width = 100%/>
-<img src = images/date-price-type-joint.png width = 100%/>
+Lets try to further analyze the type and transmission spread for the price
+
+<p float="left">
+ <img src = images/date-price-type-joint.png width = 500/>
+ <img src = images/date-price-type-joint.png width = 500/>
+</p>
+
+#### Observation
+- Among the newer cars the SUV and sedan type appears to be the dominant type.
+- Among the newer cars, the pickups and trucks seem be higher priced
+- Automatic transmission seems be the majority of the sales
+- Manual and Automatic transmission has a lower average price than other transmission
+
+## Recent trends
+
+<p align="center">
+<img src = images/price-box.png width = 100%/>
+<img src = images/transmission-price-box.png width = 100%/>
+<img src = images/type-price-box.png width = 100%/>
+<img src = images/manu-price-box.png width = 100%/>
+</p>
