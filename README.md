@@ -85,6 +85,11 @@ Lets try to further analyze the type and transmission spread for the price
 <img src = images/manu-price-box.png width = 100%/>
 </p>
 
+#### Observation
+- The median price of newer cars are in general higher. There is some anamoly for 2022 year cars.
+- There is a larger variation in the price for newer cars
+- Van and pickup pricess are higher in general than other types
+
 ## Data Preparation
 The following transformations had to be done on the data
 
