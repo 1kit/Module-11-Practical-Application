@@ -84,3 +84,33 @@ Lets try to further analyze the type and transmission spread for the price
 <img src = images/type-price-box.png width = 100%/>
 <img src = images/manu-price-box.png width = 100%/>
 </p>
+
+## Data Preparation
+The following transformations had to be done on the data
+
+- The following features were dropped and not included in the modeling
+  * id
+  * VIN
+  * state
+  * region
+- About 40% of cylinders data dn 41% of condition data was missing. Hence drop them
+- About 71% of size data was missing. Hence drop it.
+- Clean up rows that did not have data against it for remaining features
+
+Used one hot encoding for the following categorical features
+
+  * manufacturer
+  * fuel
+  * transmission
+  * typ
+
+
+#### The number of features are very high. But since our ultimage goal is to understand what factors/features drive up or down the cost, it is better not to perform a PCA. This is because PCA would remove our ability to explain how the target moves with respect to the input features. It makes inference harder.
+
+## Modeling
+
+Built the following two models
+1. A simple Linear Regression model
+2. A Ridge model and a corresponding Grid search to find out optimal hyper parameters
+
+Note: I decided to avoid Polynomial Features as the dimension was high already
