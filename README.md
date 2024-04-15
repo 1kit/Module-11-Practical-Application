@@ -167,7 +167,7 @@ To evaluate the model and to infer from it, I did the following
 
 2. Examine the coeficients
 
-####Observation
+#### Observation
 The coefficients with the highest negative value is the following. This indicates decrease in price for one unit change in the predictor, while holding others constant
 
 
