@@ -9,25 +9,27 @@ The goal for this project is to use the industry standard CRISP-DM methodology t
 # Data
 The input dataset contains user car sales information and has the following features
 
- 1   region
- 2   price
- 3   year
- 4   manufacturer
- 5   model
- 6   condition
- 7   cylinders
- 8   fuel
- 9   odometer
- 10  title_status
- 11  transmission
- 12  VIN
- 13  drive
- 14  size
- 15  type
- 16  paint_color
- 17  state
+ 1.   region
+ 2.   price
+ 3.   year
+ 4.   manufacturer
+ 5.   model
+ 6.   condition
+ 7.   cylinders
+ 8.   fuel
+ 9.   odometer
+ 10.  title_status
+ 11.  transmission
+ 12.  VIN
+ 13.  drive
+ 14.  size
+ 15.  type
+ 16.  paint_color
+ 17.  state
 
 Here I would like to use supervised machine learning methods to be able to model the price of used cars and attempt to evaluate the features that most contributes to the price of the car and make recommendations
+
+Link to Jupyter notebook : https://github.com/1kit/Module-11-Practical-Application/blob/main/prompt_II.ipynb
 
 ## Analyze the data
 
@@ -165,7 +167,7 @@ To evaluate the model and to infer from it, I did the following
 
 2. Examine the coeficients
 
-####Observation
+#### Observation
 The coefficients with the highest negative value is the following. This indicates decrease in price for one unit change in the predictor, while holding others constant
 
 
